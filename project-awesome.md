@@ -834,27 +834,23 @@ transition: view-transition
 # Der Business Case
 
 <div class="bg-card p-4 mt-sm">
-  <div class="grid grid-cols-2 gap-md">
-    <div class="stagger" style="display: flex; flex-direction: column; align-items: center;">
-      <div class="text-center mb-sm">
+  <div class="grid grid-cols-2 gap-md" style="align-items: flex-end;">
+    <div class="stagger text-center">
+      <div class="mb-sm">
         <div class="font-bold text-orange">Agentur-Weg</div>
         <div class="text-2xl font-bold text-orange">€94.800</div>
       </div>
-      <div style="display: flex; flex-direction: column; justify-content: flex-end; height: 140px; width: 100%;">
-        <div class="grow-bar" style="background: var(--3l-orange); height: 140px; width: 100%; border-radius: 8px; position: relative; box-shadow: 0 4px 20px rgba(208, 66, 39, 0.3);">
-          <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; font-size: 0.75rem;">⏱️ 6-12 Monate<br>🔒 Abhängig</div>
-        </div>
+      <div class="grow-bar" style="background: var(--3l-orange); height: 140px; width: 100%; border-radius: 8px; position: relative; box-shadow: 0 4px 20px rgba(208, 66, 39, 0.3); margin: 0 auto; max-width: 200px;">
+        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; font-size: 0.75rem;">⏱️ 6-12 Monate<br>🔒 Abhängig</div>
       </div>
     </div>
-    <div class="stagger" style="display: flex; flex-direction: column; align-items: center;">
-      <div class="text-center mb-sm">
+    <div class="stagger text-center">
+      <div class="mb-sm">
         <div class="font-bold text-green">Project Awesome</div>
         <div class="text-2xl font-bold text-green">€46.100</div>
       </div>
-      <div style="display: flex; flex-direction: column; justify-content: flex-end; height: 68px; width: 100%;">
-        <div class="grow-bar" style="background: var(--3l-middle-green); height: 68px; width: 100%; border-radius: 8px; position: relative; box-shadow: 0 4px 20px rgba(136, 192, 177, 0.3);">
-          <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: var(--3l-deep-blue); font-weight: bold; font-size: 0.75rem;">⚡ 2-4 Wochen<br>🗽 Unabhängig</div>
-        </div>
+      <div class="grow-bar" style="background: var(--3l-middle-green); height: 68px; width: 100%; border-radius: 8px; position: relative; box-shadow: 0 4px 20px rgba(136, 192, 177, 0.3); margin: 0 auto; max-width: 200px;">
+        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: var(--3l-deep-blue); font-weight: bold; font-size: 0.75rem;">⚡ 2-4 Wochen<br>🗽 Unabhängig</div>
       </div>
     </div>
   </div>
