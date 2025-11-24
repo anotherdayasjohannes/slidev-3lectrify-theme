@@ -1092,14 +1092,23 @@ layout: center
 transition: view-transition
 ---
 
-<div style="text-align: center; padding: 4rem 2rem;">
-  <div style="font-size: 8rem; line-height: 1; margin: 2rem 0;">
-    Project <span class="awesome" style="font-size: 1em;">Awesome</span>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 4rem 8rem 4rem 2rem; height: 100%; gap: 4rem;">
+  <div style="text-align: left; flex: 0 0 auto;">
+    <div style="font-size: 6rem; line-height: 1.1;">
+      Project<br><span class="awesome">Awesome</span>
+    </div>
   </div>
-
-  <h1 style="font-size: 5rem; line-height: 1.2; margin-top: 3rem;">
-    Danke
-  </h1>
+  <div style="display: flex; flex-direction: column; gap: 1rem; flex: 0 0 auto; width: 500px;">
+    <div class="bg-card" style="padding: 2rem; text-align: left;">
+      <h1 style="font-size: 5rem; line-height: 1; margin: 0;">Danke</h1>
+      <p class="text-xl opacity-80" style="margin-top: 1rem;">für eure Aufmerksamkeit</p>
+    </div>
+    <div class="bg-card" style="padding: 1.5rem; text-align: left;">
+      <p class="text-2xl text-green" style="margin-bottom: 1rem;">Kontakt</p>
+      <p class="text-base opacity-90" style="margin-bottom: 0.5rem;">📧 johannes@3lectrify.de</p>
+      <p class="text-base opacity-90">🌐 3lectrify.de</p>
+    </div>
+  </div>
 </div>
 
 ---
