@@ -485,6 +485,7 @@ transition: view-transition
     <div class="text-sm space-y-1">
       <p>HubSpot + Sentry</p>
       <p>Linear + Storybook</p>
+      <p>3lectrify Docs (GetOutliner)</p>
     </div>
   </div>
 </div>
@@ -589,6 +590,126 @@ transition: view-transition
       <p style="font-size: 0.7rem; line-height: 1.2;">Visuelles Bug-Reporting</p>
     </div>
     <img src="/markerio-logo.svg" alt="Marker.io" style="height: 24px; width: auto;" />
+  </div>
+
+  <div class="bg-card stagger" style="display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; padding: 0.5rem 0.75rem 0.5rem 1rem;">
+    <div>
+      <h4 class="text-green font-bold mb-1 text-xs">3lectrify Docs (GetOutliner)</h4>
+      <p style="font-size: 0.7rem; line-height: 1.2;">Team-Dokumentation und Wissensmanagement</p>
+    </div>
+    <img src="/outline-logo.svg" alt="GetOutliner" style="height: 24px; width: auto;" />
+  </div>
+</div>
+
+---
+layout: default
+transition: view-transition
+---
+
+# Dokumentation als Fundament
+
+<div class="text-base mt-sm" style="line-height: 1.4;">
+  <p class="mb-sm">Du arbeitest mit Claude an einer Komponente. Claude muss wissen: <strong class="text-green">Wie strukturieren wir Components? Welche Auth verwenden wir?</strong></p>
+  <p class="mb-sm text-orange"><strong>Ohne dieses Wissen ist Claude nutzlos</strong> – er rät, erfindet Lösungen, die nicht zu eurem Stack passen, und produziert generischen Code, den ihr wegwerfen müsst.</p>
+</div>
+
+<div class="grid grid-cols-2 gap-sm mt-sm">
+  <div class="bg-card p-4 stagger">
+    <div class="flex items-baseline gap-2 mb-sm">
+      <div class="text-2xl">❌</div>
+      <h3 class="text-orange text-base">Ohne Smart Docs</h3>
+    </div>
+    <div class="text-xs space-y-1 opacity-90">
+      <p>→ Du kopierst 50 Seiten Doku in Chat</p>
+      <p>→ Token voll, Chat wird langsam</p>
+      <p>→ Neue Session = alles neu erklären</p>
+      <p>→ Claude rät oder macht Annahmen</p>
+    </div>
+  </div>
+
+  <div class="bg-card p-4 stagger">
+    <div class="flex items-baseline gap-2 mb-sm">
+      <div class="text-2xl">✓</div>
+      <h3 class="text-green text-base">Mit MCP + GetOutliner</h3>
+    </div>
+    <div class="text-xs space-y-1 opacity-90">
+      <p>→ Claude fragt: "Component-Struktur?"</p>
+      <p>→ GetOutliner antwortet: <em>Nur</em> das Relevante</p>
+      <p>→ Linear-Task: "Was ist zu tun?"</p>
+      <p>→ Context bleibt schlank & präzise</p>
+    </div>
+  </div>
+</div>
+
+<div class="mt-sm p-3 bg-card stagger">
+  <p class="text-xs opacity-90">
+    <strong class="text-green">Das Prinzip:</strong> Keine 100-seitige Doku im Chat. Stattdessen: Frage stellen → Präzise Antwort bekommen.
+  </p>
+</div>
+
+---
+layout: default
+transition: view-transition
+---
+
+# Der Workflow in der Praxis
+
+<div class="text-sm mb-sm opacity-90">Wie Johannes + Claude + MCP-Tools zusammenarbeiten:</div>
+
+<div class="bg-card p-4 mt-sm" style="font-size: 0.65rem;">
+  <div class="grid grid-cols-5 gap-2 items-center">
+    <div class="text-center stagger">
+      <div class="text-3xl mb-1">👨‍💻</div>
+      <div class="font-bold text-xs">Johannes</div>
+      <div class="text-xxs opacity-80 mt-1">"Baue Login-Feature"</div>
+    </div>
+    <div class="text-2xl text-green text-center">→</div>
+    <div class="text-center stagger">
+      <div class="text-3xl mb-1">🤖</div>
+      <div class="font-bold text-xs">Claude fragt</div>
+      <div class="text-xxs opacity-80 mt-1 space-y-1">
+        <div>"Auth-Strategie?" → GetOutliner</div>
+        <div>"Button-Specs?" → Storybook</div>
+        <div>"Offene Tasks?" → Linear</div>
+      </div>
+    </div>
+    <div class="text-2xl text-green text-center">→</div>
+    <div class="text-center stagger">
+      <div class="text-3xl mb-1">📚</div>
+      <div class="font-bold text-xs">Antwort</div>
+      <div class="text-xxs opacity-80 mt-1 space-y-1">
+        <div>✓ "Wir nutzen NextAuth"</div>
+        <div>✓ "Button: 3 Variants, Props..."</div>
+        <div>✓ "Task 3LE-42 offen"</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-3 pt-3" style="border-top: 1px solid rgba(255,255,255,0.1);">
+    <div class="text-center stagger">
+      <div class="text-xl mb-1">⚡</div>
+      <div class="font-bold text-xs text-green">Claude hat jetzt präzisen Context</div>
+      <div class="text-xxs opacity-80 mt-1">Kann Code schreiben der zu Stack + Design System passt, ohne alles geladen zu haben</div>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-4 gap-2 mt-sm text-xs">
+  <div class="bg-card p-2 stagger">
+    <div class="font-bold text-green mb-1" style="font-size: 0.7rem;">GetOutliner</div>
+    <div class="opacity-80" style="font-size: 0.6rem;">Docs & Prozesse</div>
+  </div>
+  <div class="bg-card p-2 stagger">
+    <div class="font-bold text-green mb-1" style="font-size: 0.7rem;">Storybook</div>
+    <div class="opacity-80" style="font-size: 0.6rem;">Design System & Komponenten</div>
+  </div>
+  <div class="bg-card p-2 stagger">
+    <div class="font-bold text-green mb-1" style="font-size: 0.7rem;">Linear</div>
+    <div class="opacity-80" style="font-size: 0.6rem;">Tasks & Status</div>
+  </div>
+  <div class="bg-card p-2 stagger">
+    <div class="font-bold text-green mb-1" style="font-size: 0.7rem;">MCP</div>
+    <div class="opacity-80" style="font-size: 0.6rem;">Macht Fragen möglich</div>
   </div>
 </div>
 
@@ -1264,4 +1385,28 @@ transition: view-transition
 <div class="mt-md p-3 bg-card text-sm">
   <strong class="text-green">Warum Vercel?</strong><br>
   Zero-Config Deployments mit automatischen Previews für jeden Branch
+</div>
+
+---
+layout: image-right
+image: /Screenshots/GetOutliner.png
+transition: view-transition
+---
+
+# 3lectrify Docs (GetOutliner)
+
+<div class="text-lg text-green mb-sm">Team Documentation & Knowledge Base</div>
+
+<div class="text-sm space-y-1">
+  <p>✓ Real-time Collaboration</p>
+  <p>✓ Markdown Support</p>
+  <p>✓ Collections & Nested Docs</p>
+  <p>✓ Full-text Search</p>
+  <p>✓ Version History</p>
+  <p>✓ Comments & Discussions</p>
+</div>
+
+<div class="mt-md p-3 bg-card text-sm">
+  <strong class="text-green">Warum GetOutliner?</strong><br>
+  Single Source of Truth für Team-Wissen, Prozesse und Entscheidungen
 </div>
