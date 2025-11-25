@@ -348,8 +348,8 @@ transition: view-transition
 ---
 
 <div class="relative h-full flex items-center justify-center" style="margin: calc(-1 * var(--slide-spacing-top)) calc(-1 * var(--slide-spacing-horizontal)) calc(-1 * var(--slide-spacing-bottom)) calc(-1 * var(--slide-spacing-horizontal)) !important; padding: 0 !important; width: calc(100% + 2 * var(--slide-spacing-horizontal)); height: calc(100% + var(--slide-spacing-top) + var(--slide-spacing-bottom));">
-  <img src="/atomic.png" alt="Atomic Design Hierarchy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: top;" />
-  <h1 class="relative z-10" style="position: absolute; top: calc(var(--slide-header-height) + 0.5rem); left: var(--slide-spacing-horizontal);">Was ist "Atomic Design"?</h1>
+  <img src="/atomic3.png" alt="Atomic Design Hierarchy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: top;" />
+  <h1 class="relative z-10" style="position: absolute; top: calc(var(--slide-header-height) - 1rem); left: var(--slide-spacing-horizontal);">Was ist "Atomic Design"?</h1>
 </div>
 
 ---

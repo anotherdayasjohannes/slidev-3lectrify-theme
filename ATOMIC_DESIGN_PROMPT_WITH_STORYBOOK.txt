@@ -1,0 +1,115 @@
+Create a modern Atomic Design hierarchy illustration (1920x1080px, 16:9 aspect ratio) showing 5 levels: ATOMS → MOLECULES → ORGANISMS → TEMPLATES → PAGES with right-pointing arrows between each level.
+
+EXACT COLOR PALETTE (3lectrify Design System):
+- Middle Green: #88C0B1 (primary brand color)
+- Light Green: #C5E0D7 (secondary accent)
+- Orange: #D04227 (CTA/error color)
+- Deep Blue: #293645 (main background)
+- Dark Blue: #3C5067 (card backgrounds)
+- White: #FFFFFF (text)
+- Blue Grey: #5F8299 (borders)
+
+=== REAL COMPONENT SPECS FROM STORYBOOK ===
+
+1. ATOMS - Show these exact components:
+
+**Button (Primary Variant):**
+- Background: #C5E0D7 (light green)
+- Text: Dark color
+- Hover: Transforms to white background, moves up slightly
+- Border radius: 20px
+- Padding: Generous (16px vertical, 32px horizontal)
+- Font: Lato Bold, 16px mobile / 18px desktop
+- Icon: Optional, right or left position (20x20px)
+- States: Normal, Hover, Disabled (50% opacity)
+
+**FormInput:**
+- Background: White (#FFFFFF)
+- Border: Semi-transparent in normal state
+- Focus state: Green border (#88C0B1) with subtle shadow
+- Error state: Red border (#D04227)
+- Border radius: 12px
+- Height: 44px minimum (touch-optimized)
+- Placeholder text: Light grey
+- Font: Lato Regular
+
+2. MOLECULES - Show this combination:
+
+**Search Bar (Input + Button + Icon):**
+- Combine: FormInput (white background, green border on focus) + Button (#C5E0D7 background) + Search icon (magnifying glass)
+- Layout: Input field on left, button on right, seamlessly connected
+- Height: Consistent 44px across both components
+- Border radius: 12px on input left side, 20px on button right side
+
+3. ORGANISMS - Show this complex component:
+
+**FeatureCards Grid:**
+- 4 cards in a row (responsive: 1 col mobile → 2 cols tablet → 4 cols desktop)
+- Each card:
+  - Background: #3C5067 (dark blue)
+  - Border radius: 20px
+  - Padding: 24-32px
+  - Icon at top: 80x80px in #88C0B1 or with colored placeholder
+  - Title: Lato Bold, white text
+  - Description: Lato Regular, light grey text
+  - Hover effect: Card elevates with subtle shadow, icon scales up
+- Gap between cards: 16px
+- Grid uses proper responsive breakpoints
+
+4. TEMPLATES - Show this layout structure:
+
+**Dashboard Layout Wireframe:**
+- Background: #293645 (deep blue)
+- Structure:
+  - Top: Navigation header placeholder (grey outline #5F8299)
+  - Left: Sidebar placeholder (20% width, grey outline)
+  - Main content area (80% width):
+    - Placeholder for FeatureCards grid (dashed outline)
+    - Placeholder for form section (dashed outline)
+    - Placeholder for content cards (dashed outline)
+- All placeholders use #5F8599 borders, no fill
+- Labels: "Header", "Sidebar", "Content Grid", "Form Section"
+
+5. PAGES - Show complete, filled interface:
+
+**Complete Dashboard Page:**
+- Background: #293645
+- Filled navigation header:
+  - Logo on left
+  - Navigation links in middle
+  - User profile on right
+  - Background: #3C5067
+- Sidebar with navigation items and icons (#3C5067 background)
+- Main content area showing:
+  - Live FeatureCards grid (4 cards with icons, titles, descriptions)
+  - Contact form with FormInputs and Button
+  - Real data, no placeholders
+  - All using #3C5067 for card backgrounds
+  - Green (#88C0B1) accents throughout
+
+=== VISUAL FLOW ===
+
+Left-to-right progression with clear hierarchy:
+- ATOMS (smallest): Show 2-3 isolated components
+- MOLECULES (small): Show 1 combined component
+- ORGANISMS (medium): Show grid of 4 cards
+- TEMPLATES (large): Show wireframe layout structure
+- PAGES (largest): Show complete, production-ready interface
+
+Each level connected by thick green arrows (→) in #88C0B1.
+
+=== TYPOGRAPHY & STYLE ===
+
+- Font: Lato (Bold for titles, Regular for body)
+- Labels: White (#FFFFFF), Lato Bold, 18-24px
+- Background: #293645 (deep blue) throughout
+- All cards: 20px border radius (consistent)
+- Spacing: Generous, modern, breathable
+- Style: Modern SaaS/tech aesthetic, flat design
+- NO harsh shadows, NO gradients (except subtle hover effects)
+
+=== OUTPUT ===
+
+PNG format, 1920x1080px, optimized for presentation display.
+
+Goal: Show how real 3lectrify Design System components (Button, FormInput) combine into molecules (Search Bar), then organisms (FeatureCards), then templates (Dashboard Layout), and finally complete pages (Live Dashboard). Use exact colors and specs from Storybook to make it brand-authentic.
