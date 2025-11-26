@@ -20,6 +20,16 @@ Wie wir unsere digitale Zukunft selbst gebaut haben
   <span class="text-green">Von der WordPress-Hölle zur digitalen Freiheit</span>
 </div>
 
+<!--
+Hey Team! Danke, dass ihr euch die Zeit nehmt.
+
+Ich nenne das "Project Awesome" - nicht weil ich angeben will, sondern weil ich ehrlich glaube, dass wir was richtig Gutes gebaut haben. Und ich möchte euch zeigen, WIE wir das gemacht haben und warum das für eure tägliche Arbeit relevant ist.
+
+Das ist keine Show. Es ist eine ehrliche Reflexion über unseren Weg von WordPress-Chaos zu dem, wo wir heute stehen. Und spoiler: Der spannendste Teil ist nicht die Tech - es ist, wie wir als Team arbeiten.
+
+Los geht's!
+-->
+
 ---
 layout: image-right
 image: /wordpresshell.png
@@ -34,6 +44,14 @@ transition: view-transition
   <p class="mb-lg">Abhängig von <strong class="text-orange">Agenturen</strong></p>
   <p>Langsam. Teuer. <strong class="text-orange">Stillstand.</strong></p>
 </div>
+
+<!--
+Das kennt ihr vielleicht. Wir hatten alle Websites auf WordPress. Sieht erstmal harmlos aus, oder?
+
+Aber: Jedes Update war ein Risiko. Plugin-Konflikte, Design bricht, Performance-Probleme. Und das Schlimmste: Wir waren IMMER abhängig. Wollten wir was ändern? Agentur anrufen, Angebot einholen, warten, teuer bezahlen.
+
+Das ist der Screenshot aus der WordPress-Hölle. Das war unsere Realität. Und irgendwann haben wir gesagt: Das geht nicht mehr.
+-->
 
 ---
 layout: two-cols-custom
@@ -117,6 +135,16 @@ transition: view-transition
 
   <p class="text-green">"Wir brauchen <strong>digitale Freiheit</strong>."</p>
 </div>
+
+<!--
+Das war der Wendepunkt. Nicht mehr abhängig sein. Nicht mehr warten müssen. Nicht mehr bezahlen für jeden kleinen Change.
+
+"Selbst können" heißt nicht, dass ich alles alleine mache. Es heißt: Wir haben die Kontrolle. Wir entscheiden. Wir sind flexibel.
+
+Und "Plattform statt Websites" - das war der Game-Changer. Nicht für jede Marke wieder von vorne anfangen. Sondern: Einmal bauen, überall nutzen. Skalierbar. Wartbar.
+
+Das war der Moment, wo wir gesagt haben: Wir bauen das neu. Richtig.
+-->
 
 ---
 layout: default
@@ -647,6 +675,22 @@ transition: view-transition
   </p>
 </div>
 
+<!--
+Okay, das ist DER Slide. Für mich der wichtigste.
+
+Die meisten Leute, die ChatGPT benutzen, kennen das nicht. Sie nutzen AI für E-Mails, Zusammenfassungen, vielleicht ein bisschen Code. Aber nicht für komplexe Systeme.
+
+Hier ist der Punkt: AI ohne Context ist DUMM. Völlig nutzlos. Claude kann nicht raten, wie wir unsere Components strukturieren. Er weiß nicht, dass wir NextAuth verwenden. Er kann dir keinen Code geben, der zu unserem Stack passt - es sei denn, er HAT den Context.
+
+Früher: Du kopierst 50 Seiten Doku in den Chat. Token voll. Chat wird langsam. Neue Session? Alles neu erklären.
+
+Heute: MCP. Das ist "Model Context Protocol" - Claude kann FRAGEN stellen. "Wie strukturieren wir Components?" → GetOutliner antwortet mit genau dem relevanten Abschnitt. Nicht 50 Seiten. 2 Absätze. Präzise.
+
+Das ist der Unterschied zwischen "AI macht generischen Müll" und "AI arbeitet produktiv im Team". Deshalb dokumentieren wir so sorgfältig in GetOutliner. Nicht für Menschen - für die AI, die mit Menschen arbeitet.
+
+Das ist game-changing. Und das versteht nicht jeder sofort. Aber wenn ihr das versteht, versteht ihr, warum wir so arbeiten wie wir arbeiten.
+-->
+
 ---
 layout: default
 transition: view-transition
@@ -713,6 +757,23 @@ transition: view-transition
   </div>
 </div>
 
+<!--
+Okay, jetzt zeige ich euch, wie das konkret aussieht. Kein Buzzword-Bingo mehr. Echtes Beispiel.
+
+Ich sage: "Baue Login-Feature". Das ist alles.
+
+Was passiert dann? Claude FRAGT automatisch:
+- GetOutliner: "Wie machen wir Auth?" → Antwort: "Wir nutzen NextAuth"
+- Storybook: "Wie sieht der Button aus?" → Antwort: "3 Variants, Props: variant, disabled, icon..."
+- Linear: "Was ist der Status?" → Antwort: "Task 3LE-42 ist offen"
+
+Jetzt hat Claude PRÄZISEN Context. Nicht alles. Nur das, was relevant ist. Und kann Code schreiben, der zu unserem Stack passt, unserem Design System entspricht, und die richtige Task in Linear referenziert.
+
+Das ist der Workflow. Das ist, wie ich täglich arbeite. Johannes sagt was. Claude fragt die richtigen Sachen. Tools antworten. Code entsteht. Schnell. Präzise. Ohne generischen Müll.
+
+Das ist nicht Science Fiction. Das ist heute. Das ist unser Alltag.
+-->
+
 ---
 layout: default
 transition: view-transition
@@ -778,6 +839,18 @@ transition: view-transition
     </div>
   </div>
 </div>
+
+<!--
+"AI-Augmented" - das klingt nach Buzzword, ich weiß. Aber es ist wichtig, das klar zu sagen: AI ERSETZT nicht. AI ERWEITERT.
+
+Schaut euch das an: Mensch macht strategische Entscheidungen, kreative Richtung, Problemlösung. Claude macht Code-Umsetzung, Best Practices, Doku, Testing.
+
+Der Workflow: Idee → Code → Review → Refine → Done. Iterativ. Schnell. Zusammen.
+
+Ich bin nicht ersetzt worden. Ich bin EFFIZIENTER geworden. Ich kann mehr schaffen. Schneller entscheiden. Besseren Code bekommen. Weil Claude die repetitive Arbeit macht, und ich mich auf das Wichtige konzentriere.
+
+Das ist die Zukunft der Arbeit. Nicht "AI ersetzt Jobs" - sondern "AI macht dich besser in deinem Job".
+-->
 
 ---
 layout: default
@@ -850,6 +923,20 @@ transition: view-transition
     <p class="text-sm opacity-80">Basis für alles Kommende</p>
   </div>
 </div>
+
+<!--
+Okay, jetzt die harten Fakten. Keine Theorie mehr - Zahlen.
+
+~1 Jahr Research & Learning. Ja, das hat gedauert. Ich musste lernen. Next.js, React, TypeScript, Sanity, alles. Von Null. Aber: Es war die Investition wert.
+
+650 Stunden für 3lectrify.de. Das klingt nach viel. Aber vergleicht das mit: Jahren von WordPress-Wartung, ständigen Plugin-Updates, Agentur-Rechnungen. Das hat sich bereits amortisiert.
+
+20+ wiederverwendbare Komponenten. Das ist der Punkt. Ich baue nicht jedes Mal neu. Ich KOMBINIERE. Buttons, Cards, Forms - alles drin. Für ALLE Marken.
+
+Und das Unendlichkeits-Symbol bei Skalierbarkeit? Das ist nicht übertrieben. Das ist die Basis für ALLES, was kommt. Regiestuhl. Heatme. Neue Marken. Alles baut auf dieser Foundation auf.
+
+Das ist der ROI. Return on Investment. Nicht nur finanziell - sondern strategisch.
+-->
 
 ---
 layout: default
@@ -1159,6 +1246,24 @@ transition: view-transition
 <div class="mt-md opacity-80 text-sm">
   <p>Project Awesome ist das Ergebnis von <strong class="text-green">menschlicher Kreativität</strong> und <strong class="text-green">KI-Power</strong> in perfekter Harmonie.</p>
 </div>
+
+<!--
+Das Team. Und ja, das Team hat vier Mitglieder. Nicht zwei. Vier.
+
+Marion - Design System, Visuelle Identität. Ohne Marion keine Brand. Keine Farben. Kein "Look & Feel".
+
+Johannes - das bin ich. Konzeption, System-Architektur, Hybrid Team Lead. Ich orchestriere das Ganze.
+
+Claude Code - AI Partner. Code-Implementierung, Doku, Best Practices. Claude IST ein Teammitglied. Nicht ein Tool. Ein Partner.
+
+Cursor - AI Editor. Context-aware, Real-time Help. Das IDE, das mitdenkt.
+
+Vier Teammitglieder. Zwei Menschen. Zwei AIs. Und das funktioniert.
+
+"Menschliche Kreativität und KI-Power in perfekter Harmonie" - das ist kein Marketing-Sprech. Das ist Realität. Das ist unser Alltag.
+
+Und DAS ist Project Awesome. Danke, dass ihr bis hierhin dabei wart.
+-->
 
 ---
 layout: center
